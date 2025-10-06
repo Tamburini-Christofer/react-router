@@ -1,9 +1,9 @@
 const ChiSiamo = () => {
     return (
         <>
-
+            
         </>
     )
 }
 
-export default HomePage
+export default ChiSiamo;

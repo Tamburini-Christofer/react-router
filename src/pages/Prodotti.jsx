@@ -6,4 +6,4 @@ const Prodotti = () => {
     )
 }
 
-export default HomePage
+export default Prodotti;
