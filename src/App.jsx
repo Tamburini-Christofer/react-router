@@ -4,6 +4,8 @@ import HomePage from "./pages/HomePage";
 import ChiSiamo from "./pages/ChiSiamo";
 import Prodotti from "./pages/Prodotti";
 
+import Layout from "./layout/Layout";
+
 import './App.css'
 
 function App() {
@@ -12,9 +14,11 @@ function App() {
     <>
       <BrowserRouter>
             <Routes>
+              <Route element={<Layout />}>
                 <Route path="/" element={<HomePage />} />
                 <Route path="/chi siamo" element={<ChiSiamo />} />
                 <Route path="/prodotti" element={<Prodotti />} />
+                </Route>
             </Routes>
         </BrowserRouter>
     </>
