@@ -45,6 +45,7 @@ ul{
 }
 
 li{
+    text-shadow: 0 0 10px #ff00ff, 0 0 20px #00eaff;
     margin: 0 30px ;
 }
 
