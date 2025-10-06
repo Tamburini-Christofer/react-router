@@ -18,6 +18,7 @@ header{
   box-shadow: 0 0 25px #ff0099;
   text-transform: uppercase;
   letter-spacing: 3px;
+  background-color: #ff44b4;
 }
 
 h4{
@@ -63,7 +64,14 @@ li{
     height: 800px;
     background-image: url("../public/Cyberpunk2.jpg");
     background-size: cover;
-    
+    background-position-x: 80%;
+}
+
+.containerProdotti{
+    background-color: #00cbfead;
+    background-size: cover;
+    background-repeat: repeat-y;
+    background-position-x: -150px;
 }
 
 .presentation{
@@ -86,7 +94,83 @@ li{
   margin: 10px 0;
 }
 
+.product{
+    font-size: 14px;
+    width: 90%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 10px;
+}
 
+.productImg{
+    max-width: 100%;
+}
 
+/*Attenzione!! QUesto pezzo di codice è stato trovato online*/
+
+.card {
+  position: relative;
+  background: rgba(10, 10, 10, 0.85);
+  border: 2px solid #ff0099;
+  border-radius: 10px;
+  box-shadow: 0 0 15px #ff0099, inset 0 0 10px #00fff7;
+  padding: 1rem;
+  transition: 0.4s ease;
+  overflow: hidden;
+  text-transform: uppercase;
+  color: #00fff7;
+  margin: 20px 0;
+}
+
+.card:hover {
+cursor: pointer;
+  transform: translateY(-5px) scale(1.02);
+  box-shadow: 0 0 25px #ff0099, 0 0 40px #00fff7;
+}
+
+.card::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(90deg, transparent, rgba(255, 0, 153, 0.4), transparent);
+  opacity: 0.15;
+  animation: scan 3s linear infinite;
+}
+
+.productImg {
+  width: 100%;
+  height: 250px;
+  object-fit: contain;
+  border-bottom: 2px solid #00fff7;
+  margin-bottom: 1rem;
+  filter: drop-shadow(0 0 10px #00fff7);
+  transition: 0.4s ease;
+}
+
+.card:hover .productImg {
+  transform: scale(1.05);
+  filter: drop-shadow(0 0 20px #ff0099);
+}
+
+.card h5 {
+  color: #ff0099;
+  text-shadow: 0 0 10px #ff00ff, 0 0 20px #00eaff;
+  font-size: 14px;
+  margin: 10px 0;
+}
+
+.card div {
+  font-size: 12px;
+  line-height: 1.4;
+  margin-bottom: 8px;
+}
+
+.card span {
+  color: #ffeb00;
+  font-weight: bold;
+  text-shadow: 0 0 5px #ffeb00;
+}
 
 
