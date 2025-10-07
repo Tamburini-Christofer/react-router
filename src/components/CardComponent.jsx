@@ -12,9 +12,6 @@ export default function ProductCard(props) {
         <span>Price:</span> {product.price}
       </div>
       <div>
-        <span>Description:</span> {product.description}
-      </div>
-      <div>
         <span>Category: </span>
         {product.category}
       </div>
