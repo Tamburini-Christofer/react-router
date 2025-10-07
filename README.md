@@ -15,9 +15,7 @@
 </div>
 
 ###
-![completato pagina Home](./completatoHomepage.png)
-![completato pagina Chi Siamo](./completatoChiSiamo.png)
-![completato pagina Prodotti](./completatoProdotti.png)
+
 
 <p align="left"><br><br>Esercizio di oggi: React Router Store<br><br>repo: react-router<br><br>Consegna<br><br>Creiamo il frontend del nostro mini e-commerce e le sue pagine principali!<br>Useremo Fake Store API come backend fittizio per simulare i dati dei prodotti.<br><br>https://fakestoreapi.com/<br><br>Obiettivi<br><br>Installiamo React Router DOM: npm i react-router-dom<br>Creiamo almeno 3 pagine principali:<br>Homepage (con un messaggio di benvenuto o immagine promozionale)<br>Chi siamo<br>Prodotti (pagina che mostrerà la lista dei prodotti prendendoli da https://fakestoreapi.com/products)<br>Implementiamo una Navbar visibile in tutte le pagine per navigare tra di esse<br><br>Bonus<br><br>Centralizziamo la Navbar usando un componente Layout<br>Gestiamo la classe active per i link attivi nella Navbar</p>
 
